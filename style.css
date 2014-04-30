@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Spacious-Sudo
+ Theme URI:    https://github.com/sudoroom/spacious-sudo
+ Description:  Child theme of Spacious, for sudo room creative community and hackerspace
+ Author:       Matt Senate
+ Author URI:   http://existenceproof.net/
+ Template:     spacious
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Version:      0.1
+ Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../spacious/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

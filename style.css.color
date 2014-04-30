@@ -1,0 +1,228 @@
+/*
+ Theme Name:   Spacious-Sudo
+ Theme URI:    https://github.com/sudoroom/spacious-sudo
+ Description:  Child theme of Spacious, for sudo room creative community and hackerspace
+ Author:       Matt Senate
+ Author URI:   http://existenceproof.net/
+ Template:     spacious
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Version:      0.1
+ Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../spacious/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* =BLOCKQUOTE
+----------------------------------------------- */
+blockquote {
+	border-left: 3px solid #aa0000;
+}
+
+/* =FORMS
+----------------------------------------------- */
+.spacious-button,
+input[type="reset"], 
+input[type="button"], 
+input[type="submit"],
+button {
+	background-color: #aa0000;
+}
+.previous a:hover,
+.next a:hover {
+	color: #aa0000;
+}
+
+/* =LINKS
+----------------------------------------------- */
+a {
+	color: #aa0000;
+}
+
+/*****************************************************************/
+/*****************************************************************/
+
+/* =HEADER 
+----------------------------------------------- */
+#site-title a:hover {
+	color: #aa0000;
+}
+
+/* =SEARCH WIDGET 
+----------------------------------------------- */
+#search-form span {
+	background-color: #aa0000;
+}
+
+/* =NAVIGATION 
+----------------------------------------------- */
+.main-navigation a:hover, 
+.main-navigation ul li.current-menu-item a, 
+.main-navigation ul li.current_page_ancestor a, 
+.main-navigation ul li.current-menu-ancestor a, 
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li:hover > a {
+	color: #aa0000;
+}
+
+/* =DROP DOWN 
+----------------------------------------------- */
+.main-navigation ul li ul {
+	border-top: 1px solid #aa0000;
+}
+.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover {
+	color: #aa0000;
+}
+
+/* =SMALL MENU 
+----------------------------------------------- */
+.site-header .menu-toggle:hover {
+  background: #aa0000;
+}
+.main-small-navigation li:hover {
+  background: #aa0000;
+}
+.main-small-navigation ul > .current_page_item,
+.main-small-navigation ul > .current-menu-item {
+  background: #aa0000;
+}
+
+/* =SECONDARY MENUS 
+----------------------------------------------- */
+.small-menu a:hover, 
+.small-menu ul li.current-menu-item a, 
+.small-menu ul li.current_page_ancestor a, 
+.small-menu ul li.current-menu-ancestor a, 
+.small-menu ul li.current_page_item a,
+.small-menu ul li:hover > a {
+	color: #aa0000;
+}
+
+/* =FEATURED SLIDER 
+----------------------------------------------- */
+#featured-slider .slider-read-more-button {
+	background-color: #aa0000;
+}
+
+/* =SLIDER CONTROLLERS 
+----------------------------------------------- */
+#controllers a:hover, #controllers a.active {
+	background-color: #aa0000;
+	color: #aa0000;
+}
+
+/* =BREADCRUMB NAVXT PLUGIN SUPPORT 
+----------------------------------------------- */
+.breadcrumb a:hover {
+	color: #aa0000;
+}
+
+/* =CONTENT 
+----------------------------------------------- */
+.tg-one-half .widget-title a:hover,
+.tg-one-third .widget-title a:hover,
+.tg-one-fourth .widget-title a:hover {
+	color: #aa0000;
+}
+
+/* =PAGINATION 
+----------------------------------------------- */
+.pagination span {
+	background-color: #aa0000;	
+}
+.pagination a span:hover {
+	color: #aa0000;
+	border-color: #aa0000;
+}
+
+/* =TESTIMONIAL WIDGET 
+----------------------------------------------- */
+.widget_testimonial .testimonial-icon:before {
+	color: #aa0000;
+}
+.widget_testimonial .testimonial-post {
+	border-color: #aa0000 #EAEAEA #EAEAEA #EAEAEA;	
+}
+
+/* =CALL TO ACTION WIDGET 
+----------------------------------------------- */
+.call-to-action-content-wrapper {
+	border-color: #EAEAEA #EAEAEA #EAEAEA #aa0000;
+}
+.call-to-action-button {
+	background-color: #aa0000;
+}
+
+/* =COMMENTS
+----------------------------------------------- */
+#content .comments-area article header cite a:hover,
+#content .comments-area a.comment-edit-link:hover,
+#content .comments-area a.comment-permalink:hover {
+	color: #aa0000;
+}
+.comments-area .comment-author-link a:hover {
+	color: #aa0000;
+}
+.comments-area .comment-author-link span {
+	background-color: #aa0000;
+}
+.comment .comment-reply-link:hover {
+	color: #aa0000;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #aa0000;
+}
+
+/* =CALENDAR WIDGET 
+----------------------------------------------- */
+#wp-calendar #today {
+	color: #aa0000;
+}
+.widget-title span {
+	border-bottom: 2px solid #aa0000;
+}
+
+/* =FOOTER WIDGET AREA 
+----------------------------------------------- */
+.footer-widgets-area a:hover { 
+	color: #aa0000 !important;
+}
+
+/* =FOOTER SOCKET AREA 
+----------------------------------------------- */
+.footer-socket-wrapper .copyright a:hover {
+	color: #aa0000;
+}
+
+/* =SCROLL UP 
+----------------------------------------------- */
+a#scroll-up {
+	background-color: #aa0000;
+}
+
+/* =READ MORE LINK 
+----------------------------------------------- */
+.read-more, .more-link {
+	color: #aa0000;
+}
+
+/* =POST CONTENT 
+----------------------------------------------- */
+.post .entry-title a:hover, .page .entry-title a:hover {
+	color: #aa0000;
+}
+.post .entry-meta .read-more-link {
+	background-color: #aa0000;
+}
+.post .entry-meta a:hover, .type-page .entry-meta a:hover {
+	color: #aa0000;
+}
+.single #content .tags a:hover {
+	color: #aa0000;
+}
+
