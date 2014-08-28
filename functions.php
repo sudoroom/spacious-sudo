@@ -50,7 +50,7 @@ function add_login_logout_item_to_menu_footer( $items, $args ){
 add_filter( 'wp_nav_menu_items', 'add_login_logout_item_to_menu_footer', 50, 2 );
 
 /* Fixes google font http > https issue */
-if( wp_style_is( 'google_fonts', 'registered'); ) {
+if( wp_style_is( 'google_fonts', 'registered') ) {
 	wp_deregister_style( 'google_fonts' );
 }
 wp_register_style( 'google_fonts', 'https://fonts.googleapis.com/css?family=Lato' );
